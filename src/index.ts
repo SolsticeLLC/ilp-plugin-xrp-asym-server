@@ -28,7 +28,7 @@ const ASSET_CODE = 'XRP'
 
 import * as debug from 'debug'
 import createLogger = require('ilp-logger')
-const DEBUG_NAMESPACE = 'ilp-plugin-xrp-server'
+const DEBUG_NAMESPACE = 'ilp-plugin-xrp-asym-server'
 
 const CHANNEL_KEYS = 'ilp-plugin-multi-xrp-paychan-channel-keys'
 const DEFAULT_TIMEOUT = 30000 // TODO: should this be something else?
